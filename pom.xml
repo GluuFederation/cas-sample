@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.springframework.security</groupId>
-  <artifactId>spring-security-samples-xml-cassample</artifactId>
-  <version>4.2.0.M1</version>
+  <groupId>org.gluu</groupId>
+  <artifactId>cas-sample</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>spring-security-samples-xml-cassample</name>
-  <description>spring-security-samples-xml-cassample</description>
-  <url>http://spring.io/spring-security</url>
+  <name>cas-sample</name>
+  <description>Test CAS client webapp</description>
+  <url>http://gluu.org</url>
   <organization>
     <name>spring.io</name>
-    <url>http://spring.io/</url>
+    <url>http://gluu.org</url>
   </organization>
   <licenses>
     <license>
@@ -27,12 +27,12 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/spring-projects/spring-security</connection>
-    <developerConnection>scm:git:git://github.com/spring-projects/spring-security</developerConnection>
-    <url>https://github.com/spring-projects/spring-security</url>
+    <connection>scm:git:git://github.com/GluuFederation/cas-sample</connection>
+    <developerConnection>scm:git:git://github.com/GluuFederation/cas-sample</developerConnection>
+    <url>https://github.com/GluuFederation/cas-sample</url>
   </scm>
   <properties>
-    <m2eclipse.wtp.contextRoot>/spring-security-samples-xml-cassample</m2eclipse.wtp.contextRoot>
+    <m2eclipse.wtp.contextRoot>/cas-sample</m2eclipse.wtp.contextRoot>
   </properties>
   <dependencyManagement>
     <dependencies>
