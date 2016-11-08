@@ -1,6 +1,8 @@
 # cas-sample
 Test CAS client webapp
 
+Protocol URLs are linked to Shibboleth IDPv3 CAS protocol endpoints. See https://wiki.shibboleth.net/confluence/display/IDP30/CasProtocolConfiguration for additional details.
+
 ## Usage
 
 - add parameters -Dcas.server.host=ce.gluu.info -Dcas.service.host=ce.gluu.info to webserver's JAVA_OPTS
